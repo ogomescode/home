@@ -12,7 +12,7 @@ body {
 }
 
 #courses {
-  background: url("./background-2nd.png");
+  background: url("../images/background-2nd.png");
   background-size: cover;
   height: 100vh;
   padding: 20% 0% 0;
@@ -25,7 +25,7 @@ body {
 }
 
 #about {
-  background: url("./background-3rd.png");
+  background: url("../images/background-3rd.png");
   background-size: cover;
   height: 90vh;
   padding: 18% 0 0;
@@ -89,10 +89,27 @@ body {
   font-size: 1.4rem;
 }
 
+/* Footer */
+.fa-heart {
+  color: red;
+}
 /* Media Queries */
 
 @media only screen and (max-width: 800px) {
   #features {
     margin-bottom: 600px;
+  }
+
+  .item {
+    margin-top: 30px;
+  }
+
+  .course-img,
+  .about-img {
+    height: 100px;
+  }
+
+  .main-img {
+    display: none;
   }
 }

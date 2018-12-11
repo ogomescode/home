@@ -23,9 +23,7 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href=".css/owl.carousel.min.css" />
-    <link rel="stylesheet" href=".css/owl.theme.default.min.css" />
-    <link rel="stylesheet" href=".css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!-- Main Section -->
@@ -33,7 +31,7 @@
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
           <a class="navbar-brand" href="#"
-            ><img src=".images/logo.png" height="100px" alt=""
+            ><img src="./images/logo.png" height="100px" alt=""
           /></a>
           <button
             class="navbar-toggler"
@@ -73,7 +71,12 @@
           </div>
 
           <div class="col-md-6 ">
-            <img src="./images/svg/main-image.svg" height="300" alt="" />
+            <img
+              src="./images/svg/main-image.svg"
+              class="main-img"
+              height="300"
+              alt=""
+            />
           </div>
         </div>
       </div>
@@ -149,15 +152,15 @@
     <section id="about">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 col-12 text-center">
             <img
               src="./images/my-profile.png"
-              class="about-img ml-5 text-center"
+              class="about-img "
               height="200"
               alt=""
             />
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 col-12">
             <h2 class="text-white mx-auto about-info">
               Graphic Designer and Creative Web Developer<br />
 
@@ -173,11 +176,21 @@
     </section>
 
     <!-- Footer Section -->
-    <section id="footer"></section>
+    <section id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 text-white pt-5">All Right Reserved</div>
+          <div class="col-md-4 text-white pt-5 text-center">
+            Made with <i class="fas fa-heart"></i> From Maryland
+          </div>
+          <div class="col-md-4"></div>
+        </div>
+      </div>
+    </section>
     <!-- Bootstrap JS -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>
-    <script src="./main.js"></script>
+    <script src="./js/main.js"></script>
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
