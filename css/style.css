@@ -1,0 +1,98 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.2rem;
+}
+
+.header-section {
+  margin-top: 50px;
+}
+
+#main {
+  height: 70vh;
+}
+
+#courses {
+  background: url("./background-2nd.png");
+  background-size: cover;
+  height: 100vh;
+  padding: 20% 0% 0;
+}
+
+#features {
+  padding: 100px 0;
+  height: 70vh;
+  background-color: #fff;
+}
+
+#about {
+  background: url("./background-3rd.png");
+  background-size: cover;
+  height: 90vh;
+  padding: 18% 0 0;
+}
+
+#footer {
+  background-color: rgb(32, 32, 32);
+  height: 200px;
+}
+
+/* Main */
+
+.nav-item {
+  padding: 0 10px;
+}
+
+/* Course */
+.course-img,
+.about-img {
+  border-radius: 10px;
+}
+
+@keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-20px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+}
+
+.course-img {
+  animation: float 6s ease-in-out infinite;
+}
+
+.course-detail {
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* Feature */
+
+.feature-img {
+  margin: 10% 0;
+}
+
+/* About */
+
+.about-info {
+  font-size: 1.8rem;
+  width: 80%;
+}
+
+.inner-bio {
+  font-size: 1.4rem;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 800px) {
+  #features {
+    margin-bottom: 600px;
+  }
+}
