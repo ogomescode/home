@@ -52,6 +52,20 @@ body {
   border-radius: 10px;
 }
 
+.btn-dark {
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+button {
+  border-style: none;
+  padding: 0 10px;
+}
+.btn-dark a {
+  color: white;
+  text-decoration: none;
+}
+
 @keyframes float {
   0% {
     box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
@@ -69,6 +83,7 @@ body {
 
 .course-img {
   animation: float 6s ease-in-out infinite;
+  margin-top: 100px;
 }
 
 .course-detail {
@@ -77,6 +92,9 @@ body {
   margin: 0 auto;
 }
 
+.carousel-indicators {
+  top: 500px;
+}
 /* Feature */
 
 .feature-img {
